@@ -12,7 +12,7 @@ export const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/weather_app" element={<MainWeatherPage/>}/>
-                    <Route path="details/:name" element={<DetailedPage/>}/>
+                    <Route path="weather_app/details/:name" element={<DetailedPage/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

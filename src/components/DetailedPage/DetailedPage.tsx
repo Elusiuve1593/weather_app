@@ -22,7 +22,7 @@ export const DetailedPage: FC = memo(() => {
     }, [])
 
     const onClickHandler = () => {
-        return navigate("/")
+        return navigate("/weather_app")
     }
     return (
         <>
