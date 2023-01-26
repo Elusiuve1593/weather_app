@@ -11,7 +11,7 @@ export const App = () => {
             <Header/>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<MainWeatherPage/>}/>
+                    <Route path="/weather_app" element={<MainWeatherPage/>}/>
                     <Route path="details/:name" element={<DetailedPage/>}/>
                 </Routes>
             </BrowserRouter>
